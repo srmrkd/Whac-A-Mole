@@ -1,0 +1,61 @@
+:root{
+    --main-brand-color: #3498db;
+    --secondary-brand-color: #f0eeee;
+    --main-light-color:  #f0f8ff
+}
+
+*{
+    border:0;
+    margin: 0;
+}
+
+body{
+    background-color:var(--main-light-color);
+    color: var(--main-brand-color)
+}
+
+#results{
+    text-align: center;
+    padding: 20px 20px;
+    margin-top: 60px;
+}
+
+
+.grid{
+    width: 608px;
+    height: 608px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px auto;
+    border: 0;
+}
+
+.square{
+    height: 200px;
+    width: 200px;
+    border: solid var(--main-brand-color) .1px;
+}
+
+.mole{
+    background-image: url('mole.jpeg');
+    background-size: cover;
+}
+
+#controlBtn{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+button{
+    font-size: 24px;
+    background-color: var(--main-brand-color);
+    cursor: pointer;
+    border-radius: 4px;
+    padding: 5px 20px;
+    color: var(--secondary-brand-color);
+    margin: 0 10px;
+   
+}
